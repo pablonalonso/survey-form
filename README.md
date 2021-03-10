@@ -1,4 +1,6 @@
 # survey-form
-This is my first Resposive Web Design project in FreeCodeCamp.
+This is  second Resposive Web Design project in FreeCodeCamp: A Survey-Form.
 
-It makes up the second part of my coding portfolio. Enjoy!
+It makes up the second part of my coding portfolio.
+
+Enjoy!
