@@ -5,9 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    
+    <title>FunBox</title>
 </head>
 <body>
-    <h1 id="title">Tell me about music</h1>
+    <h1 id="title">FunBox</h1>
+    <p id="description">Ingrese sus datos para poder inscribirse en el plan de entrenamiento FunBox</p>
+    <form id="survey-form">
+        <label  id="name-label" for="name"> <b>Name: </b>  </label>
+        <input class="form-inputs" type="text" name="name" id="name" required placeholder="Name">
+        <br>
+        <label  id="email-label" for="email"><b>Email:</b> </label>
+        <input class="form-inputs"type="email" name="email" id="email" required placeholder="Email">
+        <br>
+        <label  id="number-label" for="number"> <b>Age:</b> </label>
+        <input class="form-inputs"type="number" name="number" id="number" min="10" max="20" placeholder="Age">
+        <br>
+        <label  for="dropdown"><b>Genre:</b></label>
+        <select  name="dropdown" id="dropdown" class="form-inputs">
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+        </select>
+        <br>
+        <br>
+        <label for="activity"><b> Activity you'd like to do: </b> </label>
+        <br>
+        <label for="crossfit">CrossFit</label>
+        <input type="radio" name="sport" id="activity" id="crossfit" value="crossfit">
+        <br>
+        <label for="strong-gap">Strong-Gap</label>
+        <input type="radio" name="sport" id="activity" id="strong-gap" value="strong-gap">
+        <br>
+        <label for="funcional-adaptado">Funcional Adaptado</label>
+        <input type="radio" name="sport" id="activity" id="funcional-adaptado" value="funcional-adaptado">
+        <br>
+        <label for="funcional-hit">Funcional Hit</label>
+        <input type="radio" name="sport" id="activity" id="funcional-hit" value="funcional-hit">
+        <br>
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="sport" id="activity" id="personalizado" value="personalizado">
+        <br>
+        <br>
+        <label for="descuentos"> <b>Descuentos: </b></label>
+        <br>
+        <label for="consultas-nutricionales">Consultas Nutricionales</label>
+        <input type="checkbox" name="descuento" id="consultas-nutricionales" value="consultas-nutricionales">
+        <br>   
+        <label for="primer-mes-de-yoga">Primer Mes De Yoga</label>
+        <input type="checkbox" name="descuento" id="primer-mes-de-yoga" value="primer-mes-de-yoga">
+        <br>
+        <label for="sesion-de-masajes">Sesion De Masajes</label>
+        <input type="checkbox" name="descuento" id="esion-de-masajes" value="esion-de-masajes">
+        <br>
+        <label for="consultas-trumatologicas">Consultas Traumatologicas</label>
+        <input type="checkbox" name="descuento" id="consultas-trumatologicas" value="consultas-trumatologicas">
+        <br>
+        <br>
+        <label  for="additional-comments"><b>Recomendaciones: </b></label>
+        <br>
+        <textarea name="additional-comments" id="additional-comments" cols="40" rows="5" placeholder="Additional Comments"></textarea>
+        <br>
+        <button id="submit" type="submit" class="submit-button">Submit</button>
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">asjhd</script>
 </body>
 </html>

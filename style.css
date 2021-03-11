@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Shippori+Mincho&display=swap');
+
+body{
+    font-family: 'Shippori Mincho', serif;
+    background-color: rgba(244, 199, 217, 0.39);
+    color: beige;
+    width: 500px;
+    height: 900px;
+    margin:auto;
+    line-height: 1.5;
+    
+}
+
 #title{
+    color: darkcyan;
     text-align: center;
+}
+
+#description{
+    color: cadetblue;
+    text-align: center;
+}
+
+form{
+    background-color: rgba(71, 101, 218, 0.39);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: auto;
+}
+
+.submit-button{
+    padding: 0.40rem 1rem 0.40rem 1rem;
+    background-color:lightgoldenrodyellow;
+    color:darkslategrey;
+    border-radius: 15px;
+    font-family: 'Shippori Mincho', serif;
+    width: 100%;
+    cursor: pointer;
+}
+
+#additional-comments{
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.form-inputs{
+    display: block;
+    width: 90%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: cornsilk;
+    color: cadetblue;
+    border: 2px solid;
+    border-radius: 15px;
 }
